@@ -107,13 +107,13 @@ buttons = [
 
 
 HELP_STRINGS = """
-`Hi.. I'm` [𝙳𝚎𝚖𝚘𝚗 𝚗𝚎𝚣𝚞𝚔𝚘💜]("https://telegra.ph/file/85ce7f2dc743fb5c0c93a.jpg") 
+`Hi.. I'm` [𝙳𝚎𝚖𝚘𝚗 𝚗𝚎𝚣𝚞𝚔𝚘💜]("https://telegra.ph/file/04fd9ddc54896a0354f80.jpg") 
 `Click on the buttons below to get about Cute Futures..`"""
 
 
 NEKO_IMG = "https://telegra.ph/file/8fa070dfa60da6c024ac3.mp4"
 
-DONATE_STRING = """Hey , If you want Donate means Give a Star ⭐ to this [Repo](https://GitHub.com/Hodacka/NekoRobot-2)"""
+DONATE_STRING = """Hey , 𝙸 𝚍𝚘𝚗'𝚝 𝚗𝚎𝚎𝚍 𝚊𝚗𝚢 𝚔𝚒𝚗𝚍 𝚘𝚏 𝚍𝚘𝚗𝚊𝚝𝚒𝚘𝚗 𝚛𝚒𝚐𝚑𝚝 𝚗𝚘𝚠 𝚒𝚏 𝚢𝚘𝚞 𝚠𝚊𝚗𝚗𝚊 𝚑𝚎𝚕𝚙 𝚢𝚘𝚞 𝚌𝚊𝚗 𝚓𝚘𝚒𝚗 𝚊𝚞𝚛 𝚌𝚑𝚊𝚗𝚗𝚎𝚕 𝚒𝚝 𝚠𝚒𝚕𝚕 𝚑𝚎𝚕𝚙 𝚊 𝚕𝚘𝚝 𝚝𝚑𝚊𝚗𝚔 ❤️ [𝙲𝚑𝚊𝚗𝚗𝚎𝚕](https://t.me/AndroidHackingZ)"""
 
 IMPORTED = {}
 MIGRATEABLE = []
@@ -239,8 +239,8 @@ def start(update: Update, context: CallbackContext):
                             url=f"https://telegram.dog/{SUPPORT_CHAT}",
                         ),
                         InlineKeyboardButton(
-                            text="📢 Updates",
-                            url="https://telegram.dog/Black_Knights_Union",
+                            text="📢 𝙳𝚎𝚖𝚘𝚗𝚒𝚌 𝚞𝚙𝚍𝚊𝚝𝚎𝚜",
+                            url="https://t.me/anime8788",
                         ),
                     ]
                 ]
@@ -407,8 +407,8 @@ def Source_about_callback(update, context):
     query = update.callback_query
     if query.data == "source_":
         query.message.edit_text(
-            text=""" Hi..💜 I'm *Neko*
-                 \nHere is the [Source Code](https://github.com/Hodacka/NekoRobot-2) .""",
+            text=""" Hi..💜 I'm *𝙳𝚎𝚖𝚘𝚗 𝚗𝚎𝚣𝚞𝚔𝚘*
+                 \nHere is the [Source Code](𝚈𝚘𝚞 𝚊𝚛𝚎 𝚗𝚘𝚝 𝚎𝚕𝚒𝚐𝚒𝚋𝚕𝚎 𝚏𝚘𝚛 𝚜𝚞𝚌𝚑 𝚍𝚎𝚖𝚘𝚗𝚒𝚌 𝚙𝚘𝚠𝚎𝚛) .""",
             parse_mode=ParseMode.MARKDOWN,
             disable_web_page_preview=True,
             reply_markup=InlineKeyboardMarkup(
