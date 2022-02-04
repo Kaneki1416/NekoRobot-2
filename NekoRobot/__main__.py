@@ -74,11 +74,11 @@ def get_readable_time(seconds: int) -> str:
 
 
 PM_START_TEXT = """
-────「 [NekoRobot](https://telegra.ph/file/38559b4da168432999bb8.jpg) 」────
+────「 [𝙳𝚎𝚖𝚘𝚗𝙽𝚎𝚣𝚞𝚔𝚘](https://telegra.ph/file/720e6d615612c482aca72.jpg) 」────
 *Hola!*
 *I am an Anime themed advance group management bot with a lot of Features.*
 ➖➖➖➖➖➖➖➖➖➖➖➖➖
-• *thnx to @NekoXRobot for neko robot repo*
+• *𝚛𝚞𝚗𝚗𝚒𝚗𝚐 𝚘𝚗 𝚙𝚢𝚝𝚑𝚘𝚗3 𝚠𝚒𝚝𝚑 𝚊𝚗 𝚜𝚚𝚕𝚊𝚕𝚌𝚑𝚎𝚖𝚢, 𝚖𝚘𝚗𝚐𝚘𝚍𝚋 𝚍𝚊𝚝𝚊𝚋𝚊𝚜𝚎.*
 ➖➖➖➖➖➖➖➖➖➖➖➖➖
 ➛ Try The Help Buttons Below To Know My Abilities ××
 """
@@ -86,28 +86,28 @@ PM_START_TEXT = """
 buttons = [
     [
                         InlineKeyboardButton(
-                            text="Add Neko To Your Group",
-                            url="t.me/NekoXRobot?startgroup=true")
+                            text="𝚂𝚞𝚖𝚖𝚘𝚗 𝚖𝚎",
+                            url="t.me/DemonNezukoXRobot?startgroup=true")
                     ],
                    [
-                       InlineKeyboardButton(text="[► Help ◄]", callback_data="help_back"),
-                       InlineKeyboardButton(text="[► Repo ◄]", url="https://GitHub.com/Awesome-Prince/NekoRobot-2"),
-                       InlineKeyboardButton(text="[► Network ◄]", url="https://t.me/Yuki_Network"),
+                       InlineKeyboardButton(text="[► 𝙱𝚕𝚘𝚘𝚍 𝙳𝚎𝚖𝚘𝚗 𝙰𝚛𝚝 ◄]", callback_data="help_back"),
+                       InlineKeyboardButton(text="[► 𝚂𝚎𝚌𝚛𝚎𝚝 𝚜𝚘𝚌𝚒𝚎𝚝𝚢 ◄]", url="https://t.me/AndroidHackingZ"),
+                       InlineKeyboardButton(text="[► 𝙳𝚎𝚖𝚘𝚗 𝚕𝚘𝚛𝚍 ◄]", url="https://t.me/KaNeKi354_bot"),
                      ],
                     [                  
                        InlineKeyboardButton(
-                             text="Support",
-                             url="https://t.me/nekoxsupport"),
+                             text="𝚂𝚙𝚒𝚛𝚒𝚝𝚞𝚊𝚕 𝚜𝚞𝚙𝚙𝚘𝚛𝚝",
+                             url="https://t.me/AboutKenKaneki"),
                        InlineKeyboardButton(
-                             text="Updates",
-                             url="https://t.me/nekoxupdates")
+                             text="𝙳𝚎𝚖𝚘𝚗𝚒𝚌 𝚞𝚙𝚍𝚊𝚝𝚎𝚜",
+                             url="https://t.me/anime8788")
                      ], 
     ]
 
 
 
 HELP_STRINGS = """
-`Hi.. I'm` [Neko💜]("https://telegra.ph/file/85ce7f2dc743fb5c0c93a.jpg") 
+`Hi.. I'm` [𝙳𝚎𝚖𝚘𝚗 𝚗𝚎𝚣𝚞𝚔𝚘💜]("https://telegra.ph/file/85ce7f2dc743fb5c0c93a.jpg") 
 `Click on the buttons below to get about Cute Futures..`"""
 
 
